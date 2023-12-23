@@ -1280,9 +1280,10 @@ footer .right .footer-link .footer-list li a {
   main .offers .offer1, main .offers .offer2{
     flex-direction: column;
     padding: 0px 35px;
+    margin-bottom: 100px !important;
   }
   main .offers .offer1 .right, main .offers .offer2 .left{
-    margin-top: 100px;
+    margin-top: 80px;
     width: 100%;
     padding-right: 0px !important;
   }
@@ -1410,15 +1411,15 @@ footer .left::after{
   }
   main .why .why-hold{
     height: fit-content;
-    padding: 44px 25px;
+    padding: 44px 20px;
   }
 
   main .offers .offer1 .left,  main .offers .offer2 .right{
     width: 100%;
-    gap: 20px;
+    gap: 12px;
   }
   main .offers .offer1, main .offers .offer2{
-    padding: 0px 25px;
+    padding: 0px 20px;
   }
   .pops .clo{
     right: 20px;
@@ -1498,20 +1499,26 @@ footer .left{
     width: 100%;
   }
   main header .banner .banner-left p, main .gallery .top p{
-    font-size: var(--paragraph-font);
+    font-size: var(--mobile-para-font);
     line-height: var(--line-height);
     text-align: left !important;
   }
   main .gallery .top{
     margin: 0px !important;
-    margin-bottom: 30px !important;
+    margin-bottom: 10px !important;
+    top: -25px;
   }
   main header .banner .banner-left .btn-hold{
     width: 100%;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
   main header .banner .banner-left .btn-hold button{
-    width: 100% !important; 
+    width: 50% !important; 
+
+  }
+  .btn-color, .btn-line{
+    padding: 10px 20px;
+    font-size: 17px
   }
     main header .banner .banner-right .box{
       display: none;
@@ -1559,17 +1566,25 @@ footer .left{
       text-align: left !important;
     }
     main .offers .offer1 .right, main .offers .offer2 .left{
-      padding: 0px 15px !important;
+      padding: 0px 0px !important;
     }
     main .offers .offer1 .right button {
       width: 200px;
-      padding: 16px 18px;
+      /* padding: 16px 18px; */
   }
   main .offers .offer1 .right .btn-hols, main .offers .offer2 .left .btn-hols{
     justify-content: left;
   }
   main .why .why-hold{
     padding-bottom: 0px;
+    margin-bottom: 80px;
+  }
+  main .offers{
+    padding-top: 20px;
+    padding-bottom: 0px !important;
+  }
+  main .offers .offer1, main .offers .offer2{
+    margin-bottom: 0px !important;
   }
     main .offers .offer2 .right .box{
        left: 40%;
@@ -1580,22 +1595,36 @@ footer .left{
       padding: 0px 15px !important;
     }
     main .gallery .gallery-image .tops{
-      height: 450px;
+      max-height: 450px;
     }
     main .gallery .gallery-image .bottom{
-      height: 245px;
+      max-height: 230px;
     }
     main .gallery .gallery-image .tops, main .gallery .gallery-image, main .gallery .gallery-image .bottom{
       gap: 10px;
     }
+    .advice{
+      margin-bottom: 0px !important;
+    }
+    .video-tour .youtube{
+      border-radius: 6px;
+    }
+    .faq .topper{
+      margin-bottom: 60px !important;
+    }
     .advice .advice-card{
-      padding: 43px 25px;
+      padding: 43px 20px;
+    }
+    .sub-hold .sub{
+      padding: 35px 20px;
     }
     .sub-hold .sub .input-hold .inss{
       flex-direction: column;
     } 
     .sub-hold .sub .input-hold input{
       width: 100%;
+      padding-top: 14px;
+      padding-bottom: 14px;
     }
     .sub-hold .sub p{
       margin-top: 10px !important;
@@ -1717,7 +1746,7 @@ main .offers .offer1 .left .box {
   left: -40px;
 }
 main .offers .offer1, main .offers .offer2{
-  padding: 10px;
+  padding: 20px;
 }
 main .offers .offer2 .right{
   height: 530px;
