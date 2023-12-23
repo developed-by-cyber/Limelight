@@ -1567,7 +1567,12 @@ footer .left{
     }
     main .offers .offer1 .right, main .offers .offer2 .left{
       padding: 0px 0px !important;
+      padding-bottom: 80px !important;
     }
+    main .offers .offer2 .left{
+      padding-bottom: 40px !important;
+    }
+  
     main .offers .offer1 .right button {
       width: 200px;
       /* padding: 16px 18px; */
@@ -1580,7 +1585,7 @@ footer .left{
     margin-bottom: 80px;
   }
   main .offers{
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 0px !important;
   }
   main .offers .offer1, main .offers .offer2{
@@ -1595,10 +1600,10 @@ footer .left{
       padding: 0px 15px !important;
     }
     main .gallery .gallery-image .tops{
-      max-height: 450px;
+      max-height: 400px;
     }
     main .gallery .gallery-image .bottom{
-      max-height: 230px;
+      max-height: 200px;
     }
     main .gallery .gallery-image .tops, main .gallery .gallery-image, main .gallery .gallery-image .bottom{
       gap: 10px;
