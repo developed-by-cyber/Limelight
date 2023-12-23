@@ -1600,7 +1600,10 @@ footer .left{
       padding: 0px 15px !important;
     }
     main .gallery .gallery-image .tops{
-      max-height: 400px;
+      max-height: 450px;
+    }
+    main .gallery .gallery-image .im3 video{
+      object-position: bottom;
     }
     main .gallery .gallery-image .bottom{
       max-height: 200px;
