@@ -975,7 +975,7 @@ main .gallery .gallery-image .bottom {
   display: flex;
   gap: 16px;
 }
-.sub-hold .sub .input-hold .inss{
+.sub-hold .sub .input-hold .inss {
   display: flex;
   gap: 13px;
 }
@@ -1105,7 +1105,7 @@ footer .right .footer-link .footer-list li a {
   line-height: 20px; /* 142.857% */
   letter-spacing: -0.3px;
 }
-.pops{
+.pops {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.932);
@@ -1119,13 +1119,13 @@ footer .right .footer-link .footer-list li a {
   visibility: hidden;
   scale: 95%;
 }
-.pops video{
+.pops video {
   max-width: 90%;
   max-height: 80%;
   border: 1px solid rgba(255, 255, 255, 0.685);
   outline: none;
 }
-.poppy{
+.poppy {
   scale: 1;
   transition: 0.3s ease-in-out;
 }
@@ -1140,7 +1140,7 @@ footer .right .footer-link .footer-list li a {
   border-radius: 0;
   transition: 0.2s ease-in-out;
 } */
-.pops .clo{
+.pops .clo {
   position: absolute;
   right: 50px;
   top: 30px;
@@ -1150,13 +1150,34 @@ footer .right .footer-link .footer-list li a {
   cursor: pointer;
 }
 
-.mobile-nav{
+.mobile-nav {
   display: none;
 }
-
+footer .end {
+  margin-top: 40px;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer .end .icons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+footer .end p {
+  color: #f9fbff;
+  font-family: Syne;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
 
 @media screen and (max-width: 1360px) {
- 
 }
 @media screen and (max-width: 1220px) {
   .overlay {
@@ -1169,14 +1190,14 @@ footer .right .footer-link .footer-list li a {
     opacity: 0.7;
     display: none;
   }
-  header{
+  header {
     padding-left: 35px !important;
     padding-right: 35px !important;
   }
-  .desk{
+  .desk {
     display: none;
   }
-  .mobile-nav{
+  .mobile-nav {
     display: block;
   }
   .mobile-nav .logo {
@@ -1212,7 +1233,7 @@ footer .right .footer-link .footer-list li a {
     position: relative;
     z-index: 2;
   }
-  .mobile-nav .side-bar .top h2{
+  .mobile-nav .side-bar .top h2 {
     display: none;
   }
   .mobile-nav .side-bar ul {
@@ -1224,7 +1245,7 @@ footer .right .footer-link .footer-list li a {
     color: white !important;
     font-size: 20px;
   }
-  .mobile-nav .side-bar .btn-hols{
+  .mobile-nav .side-bar .btn-hols {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1235,207 +1256,221 @@ footer .right .footer-link .footer-list li a {
     background-color: white !important;
     color: var(--primary-color);
   }
-  .mobile-nav .logo i{
+  .mobile-nav .logo i {
     font-size: 21px;
   }
-  main header{
+  main header {
     background-repeat: no-repeat !important;
   }
 
-  main header .banner{
+  main header .banner {
     height: fit-content;
     flex-direction: column;
   }
-  main header .banner .banner-left{
+  main header .banner .banner-left {
     order: 2;
     margin-top: 100px;
     width: 80%;
   }
-  main header .banner .banner-left h1{
+  main header .banner .banner-left h1 {
     text-align: center !important;
     width: 100%;
   }
-  main header .banner .banner-left p{
+  main header .banner .banner-left p {
     width: 80%;
     margin-left: auto !important;
     margin-right: auto !important;
     text-align: center;
   }
-  main header .banner .banner-left .btn-hold{
+  main header .banner .banner-left .btn-hold {
     justify-content: center;
   }
-  main header .banner .banner-right{
+  main header .banner .banner-right {
     margin-left: 50px !important;
   }
-  main .why .why-hold{
+  main .why .why-hold {
     height: fit-content;
   }
-  main .why .why-hold .cards-hold{
+  main .why .why-hold .cards-hold {
     grid-template-columns: 1fr 1fr;
     height: fit-content;
   }
-  main .why .why-hold .cards-hold .cards{
+  main .why .why-hold .cards-hold .cards {
     border: 1px solid var(--primary-color);
   }
-  main .offers .offer1, main .offers .offer2{
+  main .offers .offer1,
+  main .offers .offer2 {
     flex-direction: column;
     padding: 0px 35px;
     margin-bottom: 100px !important;
   }
-  main .offers .offer1 .right, main .offers .offer2 .left{
+  main .offers .offer1 .right,
+  main .offers .offer2 .left {
     margin-top: 80px;
     width: 100%;
     padding-right: 0px !important;
   }
-  main .offers .offer2 .left{
+  main .offers .offer2 .left {
     order: 2;
   }
-  main .offers .offer1 .right h1, main .offers .offer2 .left h1{
+  main .offers .offer1 .right h1,
+  main .offers .offer2 .left h1 {
     text-align: center !important;
     width: 100%;
   }
-  main .offers .offer1 .right p,   main .offers .offer2 .left p{
+  main .offers .offer1 .right p,
+  main .offers .offer2 .left p {
     width: 90%;
     margin-left: auto !important;
     margin-right: auto !important;
     text-align: center;
   }
-  main .offers .offer2 .left{
+  main .offers .offer2 .left {
     padding-left: 0px;
   }
-  main .offers .offer1 .right .btn-hols, main .offers .offer2 .left .btn-hols{
+  main .offers .offer1 .right .btn-hols,
+  main .offers .offer2 .left .btn-hols {
     width: 100%;
     display: flex;
     justify-content: center;
   }
-  main .offers .offer1 .right button, main .offers .offer2 .left button{
+  main .offers .offer1 .right button,
+  main .offers .offer2 .left button {
     text-align: center;
   }
-  footer .left .logo{
+  footer .left .logo {
     top: 25px !important;
     bottom: unset;
   }
-  footer .left{
+  footer .left {
     height: 410px;
   }
 }
 @media screen and (max-width: 1025px) {
-  .desk{
+  .desk {
     margin-bottom: 80px !important;
   }
-  main header .banner .banner-left{
+  main header .banner .banner-left {
     width: 100%;
   }
-  main header .banner .banner-left p{
+  main header .banner .banner-left p {
     width: 90%;
   }
-  main .gallery .gallery-image .tops{
+  main .gallery .gallery-image .tops {
     grid-template-columns: 1fr 1fr;
     height: 600px;
   }
-  main .gallery .gallery-image .images:nth-child(3){
+  main .gallery .gallery-image .images:nth-child(3) {
     grid-row: 2;
     grid-column: 1/3;
   }
-  main .gallery .gallery-image{
+  main .gallery .gallery-image {
     height: fit-content;
   }
-  .advice{
+  .advice {
     /* max-height: 600px; */
     padding-left: 25px;
     padding-right: 25px;
   }
-  .advice .advice-card{
+  .advice .advice-card {
     width: 100% !important;
     min-width: unset !important;
     flex-direction: column;
   }
-  .advice .advice-card .right h1{
+  .advice .advice-card .right h1 {
     margin-bottom: 20px !important;
-}
-.accordion-header button{
-  line-height: 30px !important;
-  padding: 20px 15px !important;
-}
-.accordion-body{
-  padding: 20px 15px 30px 30px !important;
-}
-.accordion-button{
-  gap: 20px;
-}
+  }
+  .accordion-header button {
+    line-height: 30px !important;
+    padding: 20px 15px !important;
+  }
+  .accordion-body {
+    padding: 20px 15px 30px 30px !important;
+  }
+  .accordion-button {
+    gap: 20px;
+  }
 
-.sub-hold, .faq{
-  padding: 0px 25px !important;
-}
-.sub-hold .sub .input-hold{
-  flex-direction: column;
-}
-.sub-hold .sub .input-hold button{
-  width: 100%;
-}
-.sub-hold{
-  padding: 0px !important;
-}
-footer {
-  padding: 56px 25px 37px 25px;
-}
-footer .right{
-  width: 100%;
-}
-footer .left::after{
-  display: none;
-}
-}
-@media screen and (max-width: 768px) {
-  main header .banner .banner-left p{
+  .sub-hold,
+  .faq {
+    padding: 0px 25px !important;
+  }
+  .sub-hold .sub .input-hold {
+    flex-direction: column;
+  }
+  .sub-hold .sub .input-hold button {
     width: 100%;
   }
-  main header .banner .banner-right{
+  .sub-hold {
+    padding: 0px !important;
+  }
+  footer {
+    padding: 56px 25px 37px 25px;
+  }
+  footer .right {
+    width: 100%;
+  }
+  footer .left::after {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  main header .banner .banner-left p {
+    width: 100%;
+  }
+  main header .banner .banner-right {
     width: 100%;
     margin-left: 0px !important;
   }
-  main header .banner .banner-right .box{
+  main header .banner .banner-right .box {
     left: -10px;
     bottom: 20px;
     box-shadow: 8px 10px 16px 4px rgba(0, 0, 0, 0.08);
   }
-  header, main .gallery{
+  header,
+  main .gallery {
     padding-left: 25px !important;
     padding-right: 25px !important;
   }
-  main header .banner .banner-right .image1{
+  main header .banner .banner-right .image1 {
     width: 400px;
   }
-  main .why{
+  main .why {
     padding: 0px;
   }
-  main .why .why-hold{
+  main .why .why-hold {
     height: fit-content;
     padding: 44px 20px;
   }
 
-  main .offers .offer1 .left,  main .offers .offer2 .right{
+  main .offers .offer1 .left,
+  main .offers .offer2 .right {
     width: 100%;
     gap: 12px;
   }
-  main .offers .offer1, main .offers .offer2{
+  main .offers .offer1,
+  main .offers .offer2 {
     padding: 0px 20px;
   }
-  .pops .clo{
+  .pops .clo {
     right: 20px;
   }
-  .advice .advice-card .left{
+  .advice .advice-card .left {
     width: 100%;
   }
-  .advice .advice-card .right{
+  .advice .advice-card .right {
     width: 100%;
   }
-  .advice .advice-card .right h1, .video-tour .heading, .faq .topper h1{
+  .advice .advice-card .right h1,
+  .video-tour .heading,
+  .faq .topper h1 {
     font-size: var(--mobile-heading-font);
     line-height: var(--line-height-head);
     text-align: left !important;
   }
-  .advice .advice-card .right .info p, .video-tour p, .faq .topper p{
+  .advice .advice-card .right .info p,
+  .video-tour p,
+  .faq .topper p {
     font-size: var(--paragraph-font);
     line-height: var(--line-height);
     text-align: left !important;
@@ -1444,255 +1479,275 @@ footer .left::after{
     /* max-height: 600px; */
     padding-left: 0px;
     padding-right: 0px;
-}
-.video-tour{
-  padding: 0px 20px;
-}
-.video-tour .youtube{
-  aspect-ratio: 16 / 9;
-  width: 100%;
-  height: unset;
-}
-.faq{
-  padding: 0px 20px;
-}
-.sub-hold .sub h1{
-  font-size: var(--mobile-heading-font);
-  line-height: var(--line-height-head);
-  text-align: left;
-}
-.sub-hold .sub p{
-  font-size: var(--mobile-para-font);
-  line-height: var(--line-height);
-  text-align: left;
-}
-.sub-hold .sub .input-hold{
-  padding: 0px !important;
-  width: 100%;
-}
-.sub-hold .sub .input-hold input{
-  width: 50%;
-}
-footer .left{
-  width: 100%;
-}
+  }
+  .video-tour {
+    padding: 0px 20px;
+  }
+  .video-tour .youtube {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: unset;
+  }
+  .faq {
+    padding: 0px 20px;
+  }
+  .sub-hold .sub h1 {
+    font-size: var(--mobile-heading-font);
+    line-height: var(--line-height-head);
+    text-align: left;
+  }
+  .sub-hold .sub p {
+    font-size: var(--mobile-para-font);
+    line-height: var(--line-height);
+    text-align: left;
+  }
+  .sub-hold .sub .input-hold {
+    padding: 0px !important;
+    width: 100%;
+  }
+  .sub-hold .sub .input-hold input {
+    width: 50%;
+  }
+  footer .left {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 565px) {
-  main header{
+  main header {
     padding-top: 35px;
   }
-  main header .banner .banner-right .image2{
+  main header .banner .banner-right .image2 {
     width: 400px;
     position: unset;
     /* display: none; */
   }
-  main header .banner .banner-right{
+  main header .banner .banner-right {
     justify-content: space-between;
   }
-  main header .banner .banner-left h1, main .gallery .top h1{
+  main header .banner .banner-left h1,
+  main .gallery .top h1 {
     font-size: var(--mobile-heading-font);
     line-height: var(--line-height-head);
     text-align: left !important;
   }
 
-  main header .banner .banner-left{
+  main header .banner .banner-left {
     width: 100%;
   }
-  main header .banner .banner-left p, main .gallery .top p{
+  main header .banner .banner-left p,
+  main .gallery .top p {
     font-size: var(--mobile-para-font);
     line-height: var(--line-height);
     text-align: left !important;
   }
-  main .gallery .top{
+  main .gallery .top {
     margin: 0px !important;
     margin-bottom: 10px !important;
     top: -25px;
   }
-  main header .banner .banner-left .btn-hold{
+  main header .banner .banner-left .btn-hold {
     width: 100%;
     /* flex-wrap: wrap; */
   }
-  main header .banner .banner-left .btn-hold button{
-    width: 50% !important; 
-
+  main header .banner .banner-left .btn-hold button {
+    width: 50% !important;
   }
-  .btn-color, .btn-line{
+  .btn-color,
+  .btn-line {
     padding: 10px 20px;
-    font-size: 17px
+    font-size: 17px;
   }
-    main header .banner .banner-right .box{
-      display: none;
-    }
-    @keyframes slide {
-      0% {
-        background-position: 0px -10px;
-        background-size: 100%;
-      }
-      50% {
-        background-position: 10px -10px;
-        background-size: 130%;
-      }
-      100% {
-        background-position: 0px -10px;
-        background-size: 100%;
-      }
-    }
-    main .why .why-hold .cards-hold{
-      grid-template-columns: 1fr;
-    }
-    main .offers .offer1 .left .box{
-      scale: 80%;
-    }
-    main .offers .offer1 .left{
-      height: fit-content;
-    }
-    main .offers .offer1 .left .image1{
-      height: 400px;
-    }
-    main .offers .offer1 .left .image2{
-      height: 300px;
-    }
-    main .why{
-      margin-bottom: 110px;
-    }
-    main .offers .offer1 .right h1, main .offers .offer2 .left h1{
-      font-size: var(--mobile-heading-font) !important;
-      line-height: 45px;
-      text-align: left !important;
-    }
-    main .offers .offer1 .right p, main .offers .offer2 .left p{
-      width: 100%;
-      margin-bottom: 18px !important;
-      text-align: left !important;
-    }
-    main .offers .offer1 .right, main .offers .offer2 .left{
-      padding: 0px 0px !important;
-      padding-bottom: 80px !important;
-    }
-    main .offers .offer2 .left{
-      padding-bottom: 40px !important;
-    }
-  
-    main .offers .offer1 .right button {
-      width: 200px;
-      /* padding: 16px 18px; */
+  main header .banner .banner-right .box {
+    display: none;
   }
-  main .offers .offer1 .right .btn-hols, main .offers .offer2 .left .btn-hols{
+  @keyframes slide {
+    0% {
+      background-position: 0px -10px;
+      background-size: 100%;
+    }
+    50% {
+      background-position: 10px -10px;
+      background-size: 130%;
+    }
+    100% {
+      background-position: 0px -10px;
+      background-size: 100%;
+    }
+  }
+  main .why .why-hold .cards-hold {
+    grid-template-columns: 1fr;
+  }
+  main .offers .offer1 .left .box {
+    scale: 80%;
+  }
+  main .offers .offer1 .left {
+    height: fit-content;
+  }
+  main .offers .offer1 .left .image1 {
+    height: 400px;
+  }
+  main .offers .offer1 .left .image2 {
+    height: 300px;
+  }
+  main .why {
+    margin-bottom: 110px;
+  }
+  main .offers .offer1 .right h1,
+  main .offers .offer2 .left h1 {
+    font-size: var(--mobile-heading-font) !important;
+    line-height: 45px;
+    text-align: left !important;
+  }
+  main .offers .offer1 .right p,
+  main .offers .offer2 .left p {
+    width: 100%;
+    margin-bottom: 18px !important;
+    text-align: left !important;
+  }
+  main .offers .offer1 .right,
+  main .offers .offer2 .left {
+    padding: 0px 0px !important;
+    padding-bottom: 80px !important;
+  }
+  main .offers .offer2 .left {
+    padding-bottom: 40px !important;
+  }
+
+  main .offers .offer1 .right button {
+    width: 200px;
+    /* padding: 16px 18px; */
+  }
+  main .offers .offer1 .right .btn-hols,
+  main .offers .offer2 .left .btn-hols {
     justify-content: left;
   }
-  main .why .why-hold{
+  main .why .why-hold {
     padding-bottom: 0px;
     margin-bottom: 80px;
   }
-  main .offers{
+  main .offers {
     padding-top: 0px;
     padding-bottom: 0px !important;
   }
-  main .offers .offer1, main .offers .offer2{
+  main .offers .offer1,
+  main .offers .offer2 {
     margin-bottom: 0px !important;
   }
-    main .offers .offer2 .right .box{
-       left: 40%;
-       transform: translateX(-50%);
-       scale: 80%;
-    }
-    main .gallery{
-      padding: 0px 15px !important;
-    }
-    main .gallery .gallery-image .tops{
-      max-height: 450px;
-    }
-    main .gallery .gallery-image .im3 video{
-      object-position: bottom;
-    }
-    main .gallery .gallery-image .bottom{
-      max-height: 200px;
-    }
-    main .gallery .gallery-image .tops, main .gallery .gallery-image, main .gallery .gallery-image .bottom{
-      gap: 10px;
-    }
-    .advice{
-      margin-bottom: 0px !important;
-    }
-    .video-tour .youtube{
-      border-radius: 6px;
-    }
-    .faq .topper{
-      margin-bottom: 60px !important;
-    }
-    .advice .advice-card{
-      padding: 43px 20px;
-    }
-    .sub-hold .sub{
-      padding: 35px 20px;
-    }
-    .sub-hold .sub .input-hold .inss{
-      flex-direction: column;
-    } 
-    .sub-hold .sub .input-hold input{
-      width: 100%;
-      padding-top: 14px;
-      padding-bottom: 14px;
-    }
-    .sub-hold .sub p{
-      margin-top: 10px !important;
-    }
-    footer{
-      padding-top: 25px;
-      /* padding-bottom: 0px; */
-      height: fit-content;
-      padding-left: 0px;
-      padding-right: 0px;
-    }
-    footer .right img{
-      display: none;
-    }
-    footer .left{
-      height: fit-content;
-      background-image: none;
-    }
-    footer .left .logo{
-      position: unset;
-      padding: 0px 25px;
-    }
-    footer .right{
-      position: unset;
-      padding: 30px 25px;
-    }
-    footer .right .footer-link{
-      flex-wrap: wrap;
-      width: 100%;
-      justify-content: start;
-      row-gap: 50px;
-    }
-    footer .holder{
-      flex-direction: column;
-      gap: 20px;
-    }
-    footer .left .logo h2{
-      font-size: 17px;
-    }
-    footer .left .logo img {
-      width: 25px;
-      height: 26px;
+  main .offers .offer2 .right .box {
+    left: 40%;
+    transform: translateX(-50%);
+    scale: 80%;
+  }
+  main .gallery {
+    padding: 0px 15px !important;
+  }
+  main .gallery .gallery-image .tops {
+    max-height: 450px;
+  }
+  main .gallery .gallery-image .im3 video {
+    object-position: bottom;
+  }
+  main .gallery .gallery-image .bottom {
+    max-height: 200px;
+  }
+  main .gallery .gallery-image .tops,
+  main .gallery .gallery-image,
+  main .gallery .gallery-image .bottom {
+    gap: 10px;
+  }
+  .advice {
+    margin-bottom: 0px !important;
+  }
+  .video-tour .youtube {
+    border-radius: 6px;
+  }
+  .faq .topper {
+    margin-bottom: 60px !important;
+  }
+  .advice .advice-card {
+    padding: 43px 20px;
+  }
+  .sub-hold .sub {
+    padding: 35px 20px;
+  }
+  .sub-hold .sub .input-hold .inss {
+    flex-direction: column;
+  }
+  .sub-hold .sub .input-hold input {
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  .sub-hold .sub p {
+    margin-top: 10px !important;
+  }
+  footer {
+    padding-top: 25px;
+    /* padding-bottom: 0px; */
+    height: fit-content;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  footer .right img {
+    display: none;
+  }
+  footer .left {
+    height: fit-content;
+    background-image: none;
+  }
+  footer .left .logo {
+    position: unset;
+    padding: 0px 25px;
+  }
+  footer .right {
+    position: unset;
+    padding: 30px 25px;
+  }
+  footer .right .footer-link {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: start;
+    row-gap: 50px;
+  }
+  footer .holder {
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer .left .logo h2 {
+    font-size: 17px;
+  }
+  footer .left .logo img {
+    width: 25px;
+    height: 26px;
+  }
+  footer .end{
+    justify-content: center;
+    gap: 16px;
+  }
+  footer .end p{
+    order: 2;
+    /* font-size: var(--mobile-para-font); */
+  }
+  footer .end .icons{
+    gap: 25px;
   }
 }
 @media screen and (max-width: 480px) {
-  .mobile-nav .side-bar{
+  .mobile-nav .side-bar {
     width: 100%;
   }
-  .mobile-nav .logo img{
+  .mobile-nav .logo img {
     width: 37px;
     height: 38px;
   }
-  .mobile-nav .logo i{
+  .mobile-nav .logo i {
     font-size: 21px;
   }
-  .mobile-nav .logo h2{
+  .mobile-nav .logo h2 {
     display: none;
     /* font-size: 15px; */
   }
-  .mobile-nav .side-bar .top h2{
+  .mobile-nav .side-bar .top h2 {
     display: block;
     color: white;
     font-size: 19px;
@@ -1705,88 +1760,93 @@ footer .left{
     width: 280px;
     height: 307.424px;
   }
-  main header .banner .banner-right .box{
+  main header .banner .banner-right .box {
     bottom: 100px;
     scale: 75%;
     left: 0px;
-    
   }
 
-  main header .banner .banner-right{
+  main header .banner .banner-right {
     height: 380px;
   }
   main header .banner .banner-right .image2 {
     width: 285px;
     height: 310px;
-}
-header{
-  padding-left: 20px !important;
-  padding-right: 20px !important;
-}
-main .why .why-hold .top .heading{
-  font-size: var(--mobile-heading-font) !important;
-}
-main .why .why-hold .top p{
-  font-size: var(--mobile-para-font);
-  line-height: var(--line-height);
-}
-main .why .why-hold .cards-hold{
-  gap: 30px;
-}
-main .why .why-hold .cards-hold .cards{
-  padding: 45px 20px;
-}
-main .offers .offer2 .right .box{
-  width: 100%;
-  left: 0;
-  scale: 100%;
-  transform: translate(0);
-}
+  }
+  header {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  main .why .why-hold .top .heading {
+    font-size: var(--mobile-heading-font) !important;
+  }
+  main .why .why-hold .top p {
+    font-size: var(--mobile-para-font);
+    line-height: var(--line-height);
+  }
+  main .why .why-hold .cards-hold {
+    gap: 30px;
+  }
+  main .why .why-hold .cards-hold .cards {
+    padding: 45px 20px;
+  }
+  main .offers .offer2 .right .box {
+    width: 100%;
+    left: 0;
+    scale: 100%;
+    transform: translate(0);
+  }
 
-main .offers .offer1 .left .box .top, main .offers .offer2 .right .box .top{
-  margin-bottom: 20px;
-}
-main .offers .offer1 .left .box .para, main .offers .offer2 .right .box .para{
-  margin-bottom: 20px !important;
-}
-main .offers .offer1 .left .box {
-  scale: 70%;
-  left: -40px;
-}
-main .offers .offer1, main .offers .offer2{
-  padding: 20px;
-}
-main .offers .offer2 .right{
-  height: 530px;
-}
-main .offers .offer2 .right .image1{
-  height: 500px;
-}
-.advice .advice-card .right h1{
-  font-size: 27px;
-}
+  main .offers .offer1 .left .box .top,
+  main .offers .offer2 .right .box .top {
+    margin-bottom: 20px;
+  }
+  main .offers .offer1 .left .box .para,
+  main .offers .offer2 .right .box .para {
+    margin-bottom: 20px !important;
+  }
+  main .offers .offer1 .left .box {
+    scale: 70%;
+    left: -40px;
+  }
+  main .offers .offer1,
+  main .offers .offer2 {
+    padding: 20px;
+  }
+  main .offers .offer2 .right {
+    height: 530px;
+  }
+  main .offers .offer2 .right .image1 {
+    height: 500px;
+  }
+  .advice .advice-card .right h1 {
+    font-size: 27px;
+  }
 }
 @media screen and (max-width: 370px) {
-  main .offers .offer1 .left .box{
+  main .offers .offer1 .left .box {
     scale: 60%;
     left: -80px;
   }
-  .advice .advice-card .right .info{
+  .advice .advice-card .right .info {
     flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 300px) {
-  main .offers .offer1 .left .box{
+  main .offers .offer1 .left .box {
     display: none;
   }
-  main .gallery .gallery-image .tops, main .gallery .gallery-image .tops, main .gallery .gallery-image, main .gallery .gallery-image .bottom{
+  main .gallery .gallery-image .tops,
+  main .gallery .gallery-image .tops,
+  main .gallery .gallery-image,
+  main .gallery .gallery-image .bottom {
     grid-template-columns: 1fr;
   }
   main .gallery .gallery-image .bottom {
     height: 290px;
-}
+  }
   main .gallery .gallery-image .images:nth-child(3) {
     grid-row: unset;
     grid-column: unset;
-}
+  }
 }
