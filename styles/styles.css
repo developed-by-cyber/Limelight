@@ -737,20 +737,8 @@ main .gallery .gallery-image .bottom {
   justify-content: center;
   align-items: center;
   margin-bottom: 52px;
-  animation: slides linear 12s infinite;
 }
 
-@keyframes slides {
-  0% {
-    background-size: 80%;
-  }
-  50% {
-    background-size: 82%;
-  }
-  100% {
-    background-size: 80%;
-  }
-}
 .advice .advice-card {
   min-width: 950px;
   background: #3c6184;
